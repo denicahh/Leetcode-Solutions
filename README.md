@@ -3,7 +3,7 @@ This repository contains my solutions to various LeetCode problems.
 
 | #      | Title                               | Solution Language + Link | Difficulty | What Did I Learn? |
 |--------|-------------------------------------|--------------------------|------------|-------------------|
-| 175    | Combine Two Tables                  | [MySQL](https://leetcode.com/problems/combine-two-tables/description/)                    | Easy       | LEFT JOIN         |
-| #      | Row 1, Col 2                        | Row 1, Col 3             | dddda      |
+| 175    | Combine Two Tables                   | [MySQL](https://leetcode.com/problems/combine-two-tables/description/)                    | Easy       | LEFT JOIN         |
+| 181    | Employees Earning More than Managers | [MySQL](https://leetcode.com/problems/employees-earning-more-than-their-managers/description/)             | Easy     | Self-Join|
 
 #Table created using Markdown
