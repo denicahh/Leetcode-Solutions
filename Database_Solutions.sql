@@ -24,5 +24,31 @@ SELECT name AS Customers
 FROM Customers
 WHERE id NOT IN (SELECT customerID FROM Orders)
 
+#1757 Recyclable_and Low Fat Products
+
+SELECT product_id
+FROM Products
+WHERE low_fats = 'Y' AND recyclable = 'Y';
+
+#584 Find Customer Referee 
+
+SELECT name
+FROM Customer
+WHERE referee_id != '2' OR referee_id is null ;
+
+#595 Big Countries 
+
+SELECT name, population, area
+FROM WORLD 
+WHERE area >= '3000000' OR population >= '25000000'
+
+#1148 Article Views
+
+SELECT DISTINCT author_id AS id
+FROM Views 
+WHERE author_id = viewer_id 
+ORDER BY id  asc;
+
+
 
 
