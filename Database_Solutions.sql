@@ -49,6 +49,15 @@ FROM Views
 WHERE author_id = viewer_id 
 ORDER BY id  asc;
 
+#570 Managers with_at least 5_Direct Reports
+
+SELECT e1.name
+FROM Employee e1
+JOIN Employee e2 ON e1.id = e2.managerID
+WHERE e2.managerID IS NOT NULL
+GROUP BY e2.managerID
+HAVING COUNT(*) >= 5;
+
 
 
 
