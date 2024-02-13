@@ -11,6 +11,7 @@ This repository contains my solutions to various LeetCode problems.
 | 584 | Find Customer Referee                   | [MySQL](https://leetcode.com/problems/find-customer-referee/description/?envType=study-plan-v2&envId=top-sql-50) | Easy | != or Null | 
 | 595 | Big Countries                           | [MySQL](https://leetcode.com/problems/big-countries/description/?envType=study-plan-v2&envId=top-sql-50) | Easy | OR | 
 | 1148 | Article Views                          | [MySQL](https://leetcode.com/problems/article-views-i/submissions/1173702473/?envType=study-plan-v2&envId=top-sql-50) | Easy | Select Distinct and compare two columns to each other and order by asc. | 
+| 570 | Managers with at Least 5 Direct Reports | [MySQL](https://leetcode.com/problems/managers-with-at-least-5-direct-reports/submissions/1173709082/?envType=study-plan-v2&envId=top-sql-50) | Medium | Self Join, Group By, Count > | 
 
 
 
