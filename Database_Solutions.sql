@@ -64,6 +64,24 @@ SELECT tweet_id
 FROM Tweets
 WHERE LENGTH(content) > 15;
 
+#1378 Replace Employee ID With_The Unique_Identifier 
+  
+SELECT e1.name, e2.unique_id
+FROM Employees e1
+LEFT JOIN EmployeeUNI e2 ON e1.id = e2.id;
 
+#1068 Product Sales Analysis 
+  
+SELECT p1.product_name, p2.year, p2.price
+FROM Sales p2
+JOIN Product p1 ON p1.product_id = p2.product_id;
+
+#1581 Customer who visited but did not_make any_transactions 
+
+SELECT v1.customer_id, COUNT(v1.visit_id) AS count_no_trans
+FROM Visits v1
+LEFT JOIN Transactions t1 ON v1.visit_id = t1.visit_id
+WHERE t1.transaction_id is NULL
+GROUP BY v1.customer_id;
 
 
